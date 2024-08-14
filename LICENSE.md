@@ -1,7 +1,7 @@
 # MIT License
 
 ```
-MIY License
+MIT License
 
 Copyright (c) 2024 8rk1
 
