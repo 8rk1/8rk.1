@@ -8,18 +8,18 @@ Example usage of the webhook setup:
 loadstring(game:HttpGet("https://raw.githubusercontent.com/8rk1/8rk.1/main/Main.lua", true))()
 
 getgenv().Config = {
-    ["WebhookUrl"] = "",              -- URL for the webhook
-    ["Content"] = "Msg Content",      -- Content of the message
-    ["Title"] = "Title Content",      -- Title of the message
-    ["Description"] = "Description Content", -- Description of the message
-    ["ThumbnailUrl"] = "",            -- URL for the thumbnail image
-    ["Color"] = 0x000000,             -- Color of the embed
-    ["Footer"] = "Footer Content",    -- Footer text
-    ["FooterThumbnailUrl"] = "",      -- URL for the footer thumbnail image
-    ["Timestamp"] = true,            -- Whether to include a timestamp
-    ["Thumbnail"] = false,           -- Whether to include a thumbnail
-    ["Footers"] = true,              -- Whether to include footers
-    ["FootersThumbnail"] = false,    -- Whether to include footer thumbnails
+    ["WebhookUrl"] = "",
+    ["Content"] = "Msg Content",
+    ["Title"] = "Title Content",
+    ["Description"] = "Description Content",
+    ["ThumbnailUrl"] = "",
+    ["Color"] = 0x000000,
+    ["Footer"] = "Footer Content",
+    ["FooterThumbnailUrl"] = "",
+    ["Timestamp"] = true, 
+    ["Thumbnail"] = false,
+    ["Footers"] = true,
+    ["FootersThumbnail"] = false,
     ["Fields"] = {
         {["Field"] = "Field Title Content", ["Description"] = "Field Description Content"},
     }
@@ -34,13 +34,12 @@ To add fields, include them in the `["Fields"]` array.
 ```
 Examples:
 ```lua
-    ["Fields"] = {
-        {["Field"] = "Field Title Content", ["Description"] = "Field Description Content"},
-        {["Field"] = "Field Title Content", ["Description"] = "Field Description Content"},
-    }
+["Fields"] = {
+    {["Field"] = "Field Title Content", ["Description"] = "Field Description Content"},
+    {["Field"] = "Field Title Content", ["Description"] = "Field Description Content"},
+}
 ```
 
 ## Credits
 > Credits
 * 8rk.1
-```
