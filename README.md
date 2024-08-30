@@ -1,5 +1,4 @@
-# Information
-A Webhook
+# Webhooks
 
 ## Example
 Example usage of the webhook setup:
