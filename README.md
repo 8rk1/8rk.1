@@ -1,6 +1,3 @@
-I separated the sections to ensure clarity and organization. However, if you prefer everything in a single block for simplicity, here’s the consolidated version:
-
-```markdown
 # Information
 A Webhook
 
